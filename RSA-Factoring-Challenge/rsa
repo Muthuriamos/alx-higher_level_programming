@@ -3,7 +3,7 @@ from sys import argv
 
 with open(argv[1]) as f:
     for line f:
-	num = int(line)
+    num = int(line)
         print("{:d}=".format(num), end='')
         if num % 2 == 0:
             print("{}*2".format(num//2))
