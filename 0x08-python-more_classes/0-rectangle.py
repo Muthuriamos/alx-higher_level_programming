@@ -5,4 +5,4 @@ pass argument ensures the class does nothing"""
 
 class Rectangle:
         """empty class Rectangle"""
-            pass
+        pass
