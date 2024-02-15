@@ -55,5 +55,7 @@ class TestMaxInteger(unittest.TestCase):
         def test_empty_string(self):
         """Test an empty string."""
         self.assertEqual(max_integer(""), None)
+        
+
         if __name__ == '__main__':
         unittest.main()
