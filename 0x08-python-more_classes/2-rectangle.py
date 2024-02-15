@@ -4,11 +4,11 @@ pass argument ensures the class does nothing"""
 
 
 class Rectangle:
-        """has private attributes width and height"""
-        def __init__(self, width=0, height=0):
-            """instanciates the class"""
-            self.__width = width
-            self.__height = height
+    """has private attributes width and height"""
+    def __init__(self, width=0, height=0):
+        """instanciates the class"""
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
